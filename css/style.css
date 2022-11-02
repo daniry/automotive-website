@@ -1,0 +1,295 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: PTSerif;
+    src: url(../fonts/PTSerif/PT_Serif-Web-Regular.ttf);
+}
+
+@font-face {
+    font-family: Couture;
+    src: url(../fonts/Couture/couture-bld.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header {
+    background-image: url(../img/background-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 688px; 
+}
+
+.container {
+    width: 1011px;
+    margin: 0 auto;
+}
+
+.header-top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0 0 0;
+}
+
+.nav-top-menu {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    font-family: Montserrat-Regular;
+    line-height: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-top-menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 17px;
+}
+
+.nav-top-menu a:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+
+.header-text-box {
+    width: 524px;
+    margin: 130px 0 160px 20px;
+}
+.page-title {
+    font-size: 90px;
+    font-family: Montserrat-Bold;
+    color: rgb(19, 14, 39);
+    line-height: 80px;
+    text-transform: uppercase;
+    
+}
+
+p#car {
+    color: white;
+}
+
+.text-header {
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: PTSerif;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+
+}
+
+
+
+
+/* SERVICES */
+
+.sercices {
+    height: 483px;
+    background-color: white;
+}
+
+.services__inner {
+    margin: 40px 0 47px 17px;
+}
+
+.services-title {
+    font-size: 50px;
+    font-family: Couture;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 80px;
+    letter-spacing: -2px;
+}
+
+.services-title #services-word {
+    color: rgb(19, 14, 39);
+}
+
+.services-box {
+    display: flex;
+    margin-top: 58px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serv-item {
+    text-align: center;
+    width: 200px;
+    padding: 18px;
+}
+
+.serv-item img {
+    width: 70%;
+}
+
+.serv-item img#lamp {
+    width: 55%;
+    height: 120px;
+}
+
+.serv-text {
+    font-size: 16px;
+    font-family: PTSerif;
+    color: rgb(22, 22, 22);
+    line-height: 24px;
+    margin-top: 55px;
+}
+
+.serv-item:nth-child(3) .serv-text, .serv-item:nth-child(4) .serv-text {
+    margin-top: 45px;
+}
+
+
+
+
+/* OUR STORY */
+
+.our-story {
+    background-color: #130e27;
+    height: 120px;
+}
+.our-story__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0 24px 21px;
+}
+
+.story-text {
+    width: 600px;
+    font-size: 16px;
+    font-family: PTSerif;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+}
+
+.btn-story {
+    width: 269px;
+    height: 64px;
+    color: white;
+    font-size: 22px;
+    font-family: Montserrat-Regular;
+    line-height: 28px;
+    background-color: #c62314;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* PRICING */
+
+
+.pricing {
+    background-color: #efefef;
+}
+
+.pricing-title {
+    text-align: center;
+    padding-top: 65px;
+    font-size: 50px;
+    font-family: Montserrat-Bold;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.price-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 65px 0;
+}
+.price-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 318px;
+    height: 389px;
+    padding: 35px 0 10px 0;
+}
+.price-name {
+    font-size: 20px;
+    font-family: PTSerif;
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+}
+.price-cost {
+    font-size: 60px;
+    font-family: Montserrat-Bold;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 80px;
+}
+.price-list {
+    list-style: none;
+    font-size: 16px;
+    font-family: PTSerif;
+    color: rgb(22, 22, 22);
+}
+.price-btn {
+    width: 205px;
+    height: 49px;
+    background-color: #130e27;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    border: 0;
+}
+
+.price-box .price-item:nth-child(2) .price-btn {
+    background-color: #c62314;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #130e27;
+
+}
+.footer__inner {
+    display: flex;
+    height: 190px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text {
+    color: white;
+    font-size: 16px;
+    font-family: PTSerif;
+    line-height: 22px;
+}
+
+#DesignCoon {
+    color:#c62314;
+}
